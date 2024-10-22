@@ -1,18 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import fennec from "../assets/fennec.jpg"; // Cambia la ruta de la imagen según tu estructura de archivos
-import '../ProductDetail/productDetail.css'; // Opcional: si necesitas estilos personalizados
+import fennec from "../assets/fennec.jpg";
+import '../ProductDetail/productDetail.css';
 
 const ProductDetail = () => {
-    const { id } = useParams(); // Obtenemos el id del producto desde la URL
-
-    // Aquí podrías hacer una llamada a una API para obtener la información del producto real según el id
-    // Para simplificar, usaremos datos estáticos
+    const { id } = useParams();
     const product = {
         name: "Fennec",
         description: "Este es un auto icónico que destaca por su diseño aerodinámico y su velocidad excepcional.",
         image: fennec,
-        price: 299.99, // Precio del producto
+        price: 299.99,
     };
 
     return (

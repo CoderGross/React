@@ -9,7 +9,7 @@ const CartWidget = ({ itemCount, onEmptyCart }) => {
       <button 
         className="btn btn-danger btn-sm ms-2" 
         onClick={onEmptyCart}
-        disabled={itemCount === 0} // Desactiva el botón si el carrito está vacío
+        disabled={itemCount === 0}
       >
         Vaciar Carrito
       </button>

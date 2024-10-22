@@ -1,10 +1,9 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import './itemListDetail.css'; // Asegúrate de tener este archivo para estilos
-
+import './itemListDetail.css';
 const ItemListDetail = () => {
   const location = useLocation();
-  const product = location.state.product; // Obtenemos el producto del estado
+  const product = location.state.product;
 
   return (
     <div className="item-list-detail container my-5">
@@ -21,7 +20,6 @@ const ItemListDetail = () => {
             <button className="btn btn-primary me-2">Mercado Pago</button>
             <button className="btn btn-success">Mercado Crédito</button>
           </div>
-          {/* Botón para volver a la tienda */}
           <Link to="/" className="btn btn-secondary mt-3">Volver a la Tienda</Link>
         </div>
       </div>

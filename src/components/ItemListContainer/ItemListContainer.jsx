@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import fennec from "../assets/fennec.jpg";
 import Octane from "../assets/octane.jpg";
 import dominus from "../assets/dominus.jpg";
-import rocketLeague from "../assets/nissan.jpg"; // Asegúrate de que la ruta sea correcta
-import breakaway from "../assets/porsche.jpg"; // Asegúrate de que la ruta sea correcta
-import trailblazer from "../assets/rayo.jpg"; // Asegúrate de que la ruta sea correcta
+import rocketLeague from "../assets/nissan.jpg";
+import breakaway from "../assets/porsche.jpg";
+import trailblazer from "../assets/rayo.jpg";
 import '../Card/card.css';
 
 const ItemListContainer = ({ addToCart }) => {

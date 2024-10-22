@@ -31,8 +31,6 @@ const NavBar = ({ cartItems, onEmptyCart }) => {
               <Link className="nav-link" to="/historia">Historia</Link>
             </li>
           </ul>
-
-          {/* Pasamos la cantidad de ítems y la función de vaciar el carrito al CartWidget */}
           <div className="d-flex">
             <CartWidget itemCount={cartItems} onEmptyCart={onEmptyCart} />
           </div>
